@@ -14,6 +14,6 @@
 #define PWM1_OUT_MUX					MUX_PA11E_TC1_WO1
 #define PWM1_CHANNEL					TC_COMPARE_CAPTURE_CHANNEL_1
 
-#define NUM_OF_COLS						5
-#define NUM_OF_ROWS						7
+#define NUM_OF_COLS						10
+#define NUM_OF_ROWS						6
 #define NUM_OF_BTNS						0
