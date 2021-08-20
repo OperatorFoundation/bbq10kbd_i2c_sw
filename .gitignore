@@ -6,3 +6,5 @@ out
 *.creator
 *.cflags
 *.cxxflags
+.idea/misc.xml
+.idea/vcs.xml
