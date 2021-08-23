@@ -39,7 +39,7 @@ static const struct entry kbd_entries[][NUM_OF_COLS] =
   { { KEY_BACK, KEY_BACK }, {KEY_TRIANGLE, KEY_TRIANGLE }, {KEY_LEFT, KEY_LEFT }, {KEY_UP, KEY_UP }, {KEY_CENTER, KEY_CENTER }, {KEY_DOWN, KEY_DOWN }, {KEY_RIGHT, KEY_RIGHT }, {'@', '@'}, { KEY_STAR, KEY_STAR } },
   { {'1','1'}, { '2', '2' }, { '3', '3' }, { '4', '4' }, { '5', '5' }, { '6', '6' }, { '7', '7' }, { '8', '8' }, { '9', '9' }, { '0', '0' } },
   { { 'q', 'Q' }, { 'w', 'W' }, { 'e', 'E' }, { 'r', 'R' }, { 't', 'T' }, { 'y', 'Y' }, { 'u', 'U' }, { 'i', 'I' }, { 'o', 'O' }, { 'p', 'P' } },
-  { { 'a', 'A' }, { 's', 'S' }, { 'd', 'D' }, { 'f', 'F' }, { 'g', 'G' }, { 'h', 'H' }, { 'j', 'J' }, { 'k', 'K' }, { 'l', 'L' }, { '\b' '\b' } },
+  { { 'a', 'A' }, { 's', 'S' }, { 'd', 'D' }, { 'f', 'F' }, { 'g', 'G' }, { 'h', 'H' }, { 'j', 'J' }, { 'k', 'K' }, { 'l', 'L' }, { '\b', '\b' } },
   { { .mod = KEY_MOD_SHL, .mod = KEY_MOD_SHL }, { 'z', 'Z' }, { 'x', 'X' }, { 'c', 'C' }, { 'v', 'V' }, { 'b', 'B' }, { 'n', 'N' }, { 'm', 'M' }, { .mod = KEY_MOD_SYM, .mod = KEY_MOD_SYM }, { '\r', '\r' } },
   { { .mod = KEY_MOD_HN, .mod = KEY_MOD_HN }, { ',', ',' }, { ' ', ' ' }, { ' ', ' ' }, { ' ', ' ' }, { '.', '.' }, { KEY_GLOBE, KEY_GLOBE } },
 };
