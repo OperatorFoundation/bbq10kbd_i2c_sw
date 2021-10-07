@@ -41,7 +41,7 @@ static const struct entry kbd_entries[][NUM_OF_COLS] =
   { { 'q', 'Q' }, { 'w', 'W' }, { 'e', 'E' }, { 'r', 'R' }, { 't', 'T' }, { 'y', 'Y' }, { 'u', 'U' }, { 'i', 'I' }, { 'o', 'O' }, { 'p', 'P' } },
   { { 'a', 'A' }, { 's', 'S' }, { 'd', 'D' }, { 'f', 'F' }, { 'g', 'G' }, { 'h', 'H' }, { 'j', 'J' }, { 'k', 'K' }, { 'l', 'L' }, { '\b', '\b' } },
   { { .mod = KEY_MOD_SHL }, { 'z', 'Z' }, { 'x', 'X' }, { 'c', 'C' }, { 'v', 'V' }, { 'b', 'B' }, { 'n', 'N' }, { 'm', 'M' }, { .mod = KEY_MOD_SYM }, { '\r', '\r' } },
-  { { .mod = KEY_MOD_HN }, { ',', ',' }, { ' ', ' ' }, { ' ', ' ' }, { ' ', ' ' }, { '.', '.' }, { KEY_GLOBE } },
+  { { .mod = KEY_MOD_HN }, { ',', ',' }, { ' ', ' ' }, { '.', '.' }, { KEY_GLOBE } },
 };
 
 #if NUM_OF_BTNS > 0
