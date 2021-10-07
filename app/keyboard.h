@@ -11,6 +11,16 @@ enum key_state
 	KEY_STATE_RELEASED,
 };
 
+#define KEY_UP '\x01'
+#define KEY_DOWN	'\x02'
+#define KEY_LEFT	'\x03'
+#define KEY_RIGHT	'\x04'
+#define KEY_CENTER	'\x05'
+#define KEY_GLOBE '\x06'
+#define KEY_BACK '\x07'
+#define KEY_TRIANGLE '\x08'
+#define KEY_STAR '\x09'
+
 #define KEY_JOY_UP		0x01
 #define KEY_JOY_DOWN	0x02
 #define KEY_JOY_LEFT	0x03
@@ -29,6 +39,7 @@ enum key_state
 #define KEY_MOD_SHL		0x1B
 #define KEY_MOD_SHR		0x1C
 #define KEY_MOD_SYM		0x1D
+#define KEY_MOD_HN		0x1E
 
 typedef void (*key_callback)(char, enum key_state);
 typedef void (*lock_callback)(bool, bool);

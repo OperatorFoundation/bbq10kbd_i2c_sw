@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="eefe3046-d57b-4f55-aff7-5bb4f79dcebf" name="BuildPmod" defaultType="TOOL">
+      <configuration id="210e0f94-e83f-4b4f-9e11-de32271229de" name="BuildPmod">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_build_with_make" />
+        </build>
+      </configuration>
+    </target>
+    <target id="6da56e49-eedf-414b-9b80-a1a043082a8f" name="Unnamed (1)" defaultType="MAKE">
+      <configuration id="9d69b228-7749-4f04-8a8a-4c1d2a6b54b9" name="Unnamed (1)" />
+    </target>
+  </component>
+</project>
