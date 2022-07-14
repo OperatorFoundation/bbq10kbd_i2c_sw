@@ -18,7 +18,7 @@ enum key_state
 #define KEY_CENTER	'\x05'
 #define KEY_GLOBE '\x06'
 #define KEY_BACK '\x07'
-#define KEY_TRIANGLE '\x08'
+#define KEY_TRIANGLE '\x11'
 #define KEY_STAR '\x09'
 #define KEY_MOD_HN	'\x10'
 
